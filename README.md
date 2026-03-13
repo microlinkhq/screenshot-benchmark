@@ -52,8 +52,7 @@ To ensure a strictly objective baseline, each benchmark is built as a reproducib
 | news.ycombinator.com *(1440px, full-page, jpeg)* | **3,435** | 5,385 | 4,329 | 4,748 | 6,857 | 1,968 |
 | github.com/trending *(768×1024, png)* | **3,060** | 6,174 | 3,898 | 4,267 | 6,059 | 5,366 |
 | framer.com *(1920×1800, jpeg)* | **6,267** | 6,301 | 7,789 | 6,386 | 7,415 | 27,154 |
-| **Average** | **4,112** | **5,916** | **6,100** | **7,334** | **7,711** | **9,463** |
-| **Total** | **28.8 s** | 41.4 s | 42.7 s | 51.3 s | 54.0 s | 66.2 s |
+| **Total** | **28.8 s** | **41.4 s** | **42.7 s** | **51.3 s** | **54.0 s** | **66.2 s** |
 
 ## Structure
 
