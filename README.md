@@ -28,7 +28,7 @@ To ensure a strictly objective baseline, each benchmark is built as a reproducib
 
 ## Screenshot Benchmark Results
 
-> Last run: **March 2026** · 7 URLs · cold requests only (cache bypassed)
+> Last run: **March 2026** · 7 URLs · cold requests only (cache bypassed) · [View full results →](https://microlink.io/benchmarks/screenshot-api)
 
 ### Summary — Average Cold Duration
 

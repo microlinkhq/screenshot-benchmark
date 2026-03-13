@@ -4,7 +4,7 @@ A terminal-based benchmark tool that races screenshot APIs against each other, s
 
 ## Benchmark Results
 
-> Last run: **March 2026** · 7 URLs · cold requests only (cache bypassed)
+> Last run: **March 2026** · 7 URLs · cold requests only (cache bypassed) · [View full results →](https://microlink.io/benchmarks/screenshot-api)
 
 ### Summary — Average Cold Duration
 
