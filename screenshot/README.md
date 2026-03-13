@@ -21,13 +21,13 @@ A terminal-based benchmark tool that races screenshot APIs against each other, s
 
 | URL | Microlink | ScreenshotAPI | ScreenshotMachine | Urlbox | ScreenshotOne | ApiFlash |
 |-----|----------:|:-------------:|:-----------------:|:------:|:-------------:|:--------:|
-| vercel.com *(1920px, full-page, jpeg)* | **6,361** | 6,143 | 9,791 | 14,953 | 12,695 | 14,233 |
-| example.com *(1280×800, png)* | **968** | 4,988 | 1,321 | 2,331 | 3,135 | 1,820 |
-| stripe.com *(393×852, jpeg)* | **3,217** | 5,614 | 3,167 | 3,679 | 5,678 | 5,900 |
-| screenshotone.com *(1920px, full-page, png)* | **5,474** | 6,805 | 12,404 | 14,976 | 12,139 | 9,802 |
-| news.ycombinator.com *(1440px, full-page, jpeg)* | **3,435** | 5,385 | 4,329 | 4,748 | 6,857 | 1,968 |
-| github.com/trending *(768×1024, png)* | **3,060** | 6,174 | 3,898 | 4,267 | 6,059 | 5,366 |
-| framer.com *(1920×1800, jpeg)* | **6,267** | 6,301 | 7,789 | 6,386 | 7,415 | 27,154 |
+| vercel.com *(1920px, full-page, jpeg)* | 6,361 | 6,143 | 9,791 | 14,953 | 12,695 | 14,233 |
+| example.com *(1280×800, png)* | 968 | 4,988 | 1,321 | 2,331 | 3,135 | 1,820 |
+| stripe.com *(393×852, jpeg)* | 3,217 | 5,614 | 3,167 | 3,679 | 5,678 | 5,900 |
+| screenshotone.com *(1920px, full-page, png)* | 5,474 | 6,805 | 12,404 | 14,976 | 12,139 | 9,802 |
+| news.ycombinator.com *(1440px, full-page, jpeg)* | 3,435 | 5,385 | 4,329 | 4,748 | 6,857 | 1,968 |
+| github.com/trending *(768×1024, png)* | 3,060 | 6,174 | 3,898 | 4,267 | 6,059 | 5,366 |
+| framer.com *(1920×1800, jpeg)* | 6,267 | 6,301 | 7,789 | 6,386 | 7,415 | 27,154 |
 | **Total** | **28.8 s** | **41.4 s** | **42.7 s** | **51.3 s** | **54.0 s** | **66.2 s** |
 
 ## Quick start
