@@ -1,0 +1,539 @@
+{
+  "timestamp": "2026-03-10T20:15:19.753Z",
+  "testUrls": [
+    {
+      "url": "https://vercel.com",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": true,
+      "format": "jpeg",
+      "deviceScaleFactor": 1,
+      "adblock": true
+    },
+    {
+      "url": "https://example.com",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "format": "png",
+      "deviceScaleFactor": 1,
+      "adblock": true
+    },
+    {
+      "url": "https://stripe.com",
+      "width": 393,
+      "height": 852,
+      "fullPage": false,
+      "format": "jpeg",
+      "deviceScaleFactor": 2,
+      "adblock": true
+    },
+    {
+      "url": "https://screenshotone.com",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": true,
+      "format": "png",
+      "deviceScaleFactor": 1,
+      "adblock": true
+    },
+    {
+      "url": "https://news.ycombinator.com",
+      "width": 1440,
+      "height": 1080,
+      "fullPage": true,
+      "format": "jpeg",
+      "deviceScaleFactor": 1,
+      "adblock": true
+    },
+    {
+      "url": "https://github.com/trending",
+      "width": 768,
+      "height": 1024,
+      "fullPage": false,
+      "format": "png",
+      "deviceScaleFactor": 1,
+      "adblock": true
+    },
+    {
+      "url": "https://www.framer.com",
+      "width": 1920,
+      "height": 1800,
+      "fullPage": false,
+      "format": "jpeg",
+      "deviceScaleFactor": 2,
+      "adblock": true
+    }
+  ],
+  "results": {
+    "apiflash": {
+      "name": "ApiFlash",
+      "website": "https://apiflash.com",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 15863.076050999998,
+          "cachedDuration": 94.98824500000046,
+          "imageSize": 579283,
+          "imageQuality": 1059.0567188841346,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 1147.999028000002,
+          "cachedDuration": 39.94650600000023,
+          "imageSize": 32155,
+          "imageQuality": 297.01276469734586,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 7355.162763,
+          "cachedDuration": 103.88801500000045,
+          "imageSize": 121829,
+          "imageQuality": 1296.0074559641719,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 10920.684978000001,
+          "cachedDuration": 98.8441610000009,
+          "imageSize": 1846182,
+          "imageQuality": 1172.5638505489203,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 1633.3996279999992,
+          "cachedDuration": 39.089105000006384,
+          "imageSize": 166570,
+          "imageQuality": 3862.948695634286,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 7520.627117000004,
+          "cachedDuration": 89.07972499999596,
+          "imageSize": 165081,
+          "imageQuality": 2525.8948728495297,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 30574.701447,
+          "cachedDuration": 85.86008600000059,
+          "imageSize": 982091,
+          "imageQuality": 1225.577351829124,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 10716.52,
+        "avgCachedDuration": 78.81,
+        "cacheSpeedup": 135.97,
+        "avgImageSize": 556170,
+        "avgImageQuality": 1634.15,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    },
+    "microlink": {
+      "name": "Microlink",
+      "website": "https://microlink.io",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 7084.597162,
+          "cachedDuration": 21.82112700000016,
+          "imageSize": 555532,
+          "imageQuality": 1007.5655830511125,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 935.2499770000013,
+          "cachedDuration": 13.905905999999959,
+          "imageSize": 16203,
+          "imageQuality": 323.9259376924314,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 2885.7225,
+          "cachedDuration": 17.17077900000004,
+          "imageSize": 129963,
+          "imageQuality": 1379.5703014460778,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 4772.2008369999985,
+          "cachedDuration": 137.38036700000157,
+          "imageSize": 2067317,
+          "imageQuality": 1273.3282279405273,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 3815.1368540000003,
+          "cachedDuration": 13.432104999999865,
+          "imageSize": 164374,
+          "imageQuality": 4429.972599744127,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 2640.421346000003,
+          "cachedDuration": 21.936109999998735,
+          "imageSize": 146653,
+          "imageQuality": 2625.2268065994595,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 9005.163459,
+          "cachedDuration": 13.501469000002544,
+          "imageSize": 992217,
+          "imageQuality": 1230.350222142983,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 4448.36,
+        "avgCachedDuration": 34.16,
+        "cacheSpeedup": 130.21,
+        "avgImageSize": 581751,
+        "avgImageQuality": 1752.85,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    },
+    "screenshotapi": {
+      "name": "ScreenshotAPI",
+      "website": "https://screenshotapi.net",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 6182.960220999999,
+          "cachedDuration": null,
+          "imageSize": 531926,
+          "imageQuality": 971.4010093653402,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 4728.281333000001,
+          "cachedDuration": null,
+          "imageSize": 16313,
+          "imageQuality": 334.36670118174936,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 5663.546183,
+          "cachedDuration": null,
+          "imageSize": 123605,
+          "imageQuality": 1285.1209523909447,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 6177.879525,
+          "cachedDuration": null,
+          "imageSize": 1901383,
+          "imageQuality": 1244.3711140220098,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 5194.303597999999,
+          "cachedDuration": null,
+          "imageSize": 162063,
+          "imageQuality": 4187.510721397294,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 6117.709599000002,
+          "cachedDuration": null,
+          "imageSize": 134665,
+          "imageQuality": 3007.5109037212655,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 6349.4812600000005,
+          "cachedDuration": null,
+          "imageSize": 973228,
+          "imageQuality": 1195.6635575145824,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 5773.45,
+        "avgCachedDuration": 0,
+        "cacheSpeedup": 0,
+        "avgImageSize": 549026,
+        "avgImageQuality": 1746.56,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    },
+    "screenshotmachine": {
+      "name": "ScreenshotMachine",
+      "website": "https://screenshotmachine.com",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 10361.374072,
+          "cachedDuration": 245.91827100000046,
+          "imageSize": 1195458,
+          "imageQuality": 884.0106369816148,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 1349.865549,
+          "cachedDuration": 237.77671499999997,
+          "imageSize": 21969,
+          "imageQuality": 301.49735645843873,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 3184.1105229999994,
+          "cachedDuration": 233.78703700000187,
+          "imageSize": 249327,
+          "imageQuality": 1541.7355444674931,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 12240.436714,
+          "cachedDuration": 441.48254799999995,
+          "imageSize": 2188219,
+          "imageQuality": 1242.8252222893232,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 4281.661421999997,
+          "cachedDuration": 419.7369369999942,
+          "imageSize": 387913,
+          "imageQuality": 3600.7678138786537,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 3358.187858999998,
+          "cachedDuration": 225.15297799999826,
+          "imageSize": 157331,
+          "imageQuality": 2763.3174750783032,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 8064.012171999995,
+          "cachedDuration": 248.9956979999988,
+          "imageSize": 1403259,
+          "imageQuality": 509.0430762298897,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 6119.95,
+        "avgCachedDuration": 293.26,
+        "cacheSpeedup": 20.87,
+        "avgImageSize": 800497,
+        "avgImageQuality": 1549.03,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    },
+    "screenshotone": {
+      "name": "ScreenshotOne",
+      "website": "https://screenshotone.com",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 14020.464028999999,
+          "cachedDuration": 13.847976999999446,
+          "imageSize": 1479000,
+          "imageQuality": 977.742521374006,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 3278.0645479999985,
+          "cachedDuration": 20.4072699999997,
+          "imageSize": 19692,
+          "imageQuality": 340.06774957738634,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 6340.941855999998,
+          "cachedDuration": 22.36875599999985,
+          "imageSize": 394606,
+          "imageQuality": 1340.3966739310295,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 12134.226814999998,
+          "cachedDuration": 17.484158999999636,
+          "imageSize": 2209929,
+          "imageQuality": 1276.6310035508745,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 6367.931134999999,
+          "cachedDuration": 15.916341999996803,
+          "imageSize": 430620,
+          "imageQuality": 4165.699097676646,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 5523.696171999996,
+          "cachedDuration": 16.380899999996473,
+          "imageSize": 149434,
+          "imageQuality": 2886.4340335082493,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 4811.200971000006,
+          "cachedDuration": 24.32629299999826,
+          "imageSize": 3102617,
+          "imageQuality": 1174.0280612296624,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 7496.65,
+        "avgCachedDuration": 18.68,
+        "cacheSpeedup": 401.41,
+        "avgImageSize": 1112271,
+        "avgImageQuality": 1737.29,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    },
+    "urlbox": {
+      "name": "Urlbox",
+      "website": "https://urlbox.com",
+      "perUrl": [
+        {
+          "url": "https://vercel.com",
+          "coldDuration": 14277.501464,
+          "cachedDuration": null,
+          "imageSize": 1128813,
+          "imageQuality": 1006.2548439104914,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://example.com",
+          "coldDuration": 1942.3182439999982,
+          "cachedDuration": null,
+          "imageSize": 17664,
+          "imageQuality": 316.3741081969399,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://stripe.com",
+          "coldDuration": 3361.8149630000007,
+          "cachedDuration": null,
+          "imageSize": 385673,
+          "imageQuality": 1369.1740149643877,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://screenshotone.com",
+          "coldDuration": 14137.901909999997,
+          "cachedDuration": null,
+          "imageSize": 2219555,
+          "imageQuality": 1284.8093702334754,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://news.ycombinator.com",
+          "coldDuration": 4992.447408,
+          "cachedDuration": null,
+          "imageSize": 350350,
+          "imageQuality": 3921.8645102718406,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://github.com/trending",
+          "coldDuration": 5115.485846999996,
+          "cachedDuration": null,
+          "imageSize": 151602,
+          "imageQuality": 2706.913799798685,
+          "success": true,
+          "error": null
+        },
+        {
+          "url": "https://www.framer.com",
+          "coldDuration": 8326.488309,
+          "cachedDuration": null,
+          "imageSize": 3067691,
+          "imageQuality": 1181.89266241653,
+          "success": true,
+          "error": null
+        }
+      ],
+      "summary": {
+        "avgColdDuration": 7450.57,
+        "avgCachedDuration": 0,
+        "cacheSpeedup": 0,
+        "avgImageSize": 1045907,
+        "avgImageQuality": 1683.9,
+        "successRate": 1,
+        "totalRequests": 7
+      }
+    }
+  },
+  "winner": "microlink"
+}
