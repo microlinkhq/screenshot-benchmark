@@ -56,6 +56,9 @@ Configure keys in `.env`:
 | `URLBOX_API_SECRET` | Yes | Required alongside the API key. |
 | `APIFLASH_API_KEY` | Yes | Adapter is skipped if missing. |
 | `SCREENSHOTLAYER_API_KEY` | Yes | Excluded from default runs due to low free-plan concurrency. Run explicitly with `node benchmark.js screenshotlayer`. |
+| `THUMIO_API_KEY` | Yes | Adapter is skipped if missing. |
+
+Thum.io docs note that `viewportWidth` and `fullpage` are only available on "better" plan, so captures may not exactly match `config.js` on lower plans.
 
 ## Metrics
 
@@ -70,7 +73,7 @@ Each URL is tested per adapter, measuring:
 
 - **Adapter filter** — Pass one or more adapter slugs to run only those adapters:  
   `node benchmark.js microlink screenshotone`  
-  Available slugs: `microlink`, `screenshotone`, `screenshotmachine`, `screenshotapi`, `urlbox`, `apiflash`, `screenshotlayer`.
+  Available slugs: `microlink`, `screenshotone`, `screenshotmachine`, `screenshotapi`, `urlbox`, `apiflash`, `screenshotlayer`, `thumio`.
 - **`--cache`** — Also measure cached response times. Without this flag, only cold (fresh) requests are made. Adapters that don't support cache measurement will return `null` for cached duration.
 - **`--savescreenshots`** — Save each captured image to `tmp/` (e.g. `vercel.com_1920x1080_microlink.jpeg`).
 - **`--showdetail`** — Print per-URL cold duration tables after the summary. When combined with `--cache`, also prints cached duration tables.
@@ -124,6 +127,7 @@ adapters/
   screenshotlayer.js     # ScreenshotLayer adapter
   screenshotmachine.js   # ScreenshotMachine adapter
   screenshotone.js       # ScreenshotOne adapter
+  thumio.js              # Thum.io adapter
   urlbox.js              # Urlbox adapter
 results/                 # JSON output (gitignored, created at runtime)
 tmp/                     # Saved screenshots when using --savescreenshots (gitignored)
