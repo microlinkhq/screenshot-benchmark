@@ -57,6 +57,7 @@ Configure keys in `.env`:
 | `APIFLASH_API_KEY` | Yes | Adapter is skipped if missing. |
 | `SCREENSHOTLAYER_API_KEY` | Yes | Excluded from default runs due to low free-plan concurrency. Run explicitly with `node benchmark.js screenshotlayer`. |
 | `THUMIO_API_KEY` | Yes | Adapter is skipped if missing. |
+| `SNAPRENDER_API_KEY` | Yes | Adapter is skipped if missing. Free plan: 200 captures a month, 10 requests a minute. |
 
 Thum.io docs note that `viewportWidth` and `fullpage` are only available on "better" plan, so captures may not exactly match `config.js` on lower plans.
 
